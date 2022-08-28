@@ -9,7 +9,7 @@ package greedy;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class greedy2 {
+public class cardJoinCnt {
   public static void main(String[] args) {
 	
 	//=================입력=================  
@@ -26,10 +26,10 @@ public class greedy2 {
     int choice2 = 0;
     int resultCnt = 0;
     while (cardGroup.size() != 1) {
-    	choice1 = cardGroup.remove(); //제거하면서 값을 받아옴
+    	choice1 = cardGroup.remove(); 							//제거하면서 값을 받아옴
     	choice2 = cardGroup.remove();
     	resultCnt += choice1 + choice2;
-      cardGroup.add(choice1 + choice2);//추가를 하면서 자동 정렬 오름차순
+      cardGroup.add(choice1 + choice2);							//추가를 하면서 자동 정렬 오름차순
     }
     System.out.println(resultCnt);
   }
