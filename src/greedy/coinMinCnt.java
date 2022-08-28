@@ -19,7 +19,7 @@ public class coinMinCnt {
     	coinPriceKind[i] = sc.nextInt(); 
     }
 
-    //=================체크=================
+    //=================로직=================
     int needCoinCnt = 0;
     for (int i = coinKindCnt - 1; i >= 0; i--) {
       if (coinPriceKind[i] <= makePrice) { 					// 현재 동전의 가치가 makePrice보다 작거나 같으면 구성에 추가한다.
