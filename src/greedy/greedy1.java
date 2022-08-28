@@ -1,5 +1,11 @@
 package greedy;
 
+/*그리디 알고리즘
+ * 1. 가장 최선이라 생각되는 방식 생각
+ * 2. 전체 문제가 제약조건에 벗어나지 않는 지 검사
+ * 3. 전체 문제를 해결하지 못하면 1로 돌아가기
+ * */
+
 import java.util.Scanner;
 public class greedy1 {
   public static void main(String[] args) {
