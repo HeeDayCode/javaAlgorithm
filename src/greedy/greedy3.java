@@ -5,14 +5,16 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 public class greedy3 {
   public static void main(String[] args) {
+	  
+	//=================입력=================
     Scanner sc = new Scanner(System.in);
-    int N = sc.nextInt(); // 카드 묶음의 수 저장
-    // 양수는 내림차순 정렬
-    PriorityQueue<Integer> plusPq = new PriorityQueue<>(Collections.reverseOrder());
-    PriorityQueue<Integer> minusPq = new PriorityQueue<>();
-    int one = 0;
-    int zero = 0;
-    for (int i = 0; i < N; i++) { // 4개의 그룹으로 분리하여 저장
+    int cardGroup = sc.nextInt(); // 카드 묶음의 수 저장
+
+    PriorityQueue<Integer> plusPq = new PriorityQueue<>(Collections.reverseOrder()); //우선순위큐를 사용함으로써 내림차순 정렬
+    PriorityQueue<Integer> minusPq = new PriorityQueue<>();							 //음수
+    int one = 0;		//1따로
+    int zero = 0;		//0따로
+    for (int i = 0; i < cardGroup; i++) { // 4개의 그룹으로 분리하여 저장
       int data = sc.nextInt();
       if (data > 1) {
         plusPq.add(data);
@@ -24,6 +26,8 @@ public class greedy3 {
         minusPq.add(data);
       }
     }
+        
+    //=================로직=================
     int sum = 0;
     // 양수처리
     while (plusPq.size() > 1) {
