@@ -26,6 +26,8 @@ public class gcd3 {
 
 	private static long[] Excute(long a, long b) {
 		long[] ret = new long[2];
+		
+		
 		if (b == 0) {
 			ret[0] = 1;
 			ret[1] = 0;
