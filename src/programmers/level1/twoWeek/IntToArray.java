@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.twoWeek;
 
 import java.util.Arrays;
 import java.util.stream.Stream;
