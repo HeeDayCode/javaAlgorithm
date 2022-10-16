@@ -28,10 +28,15 @@ public class StringArrayToIntArray {
         Integer[] descendingValues = Arrays.stream(values).boxed().toArray(Integer[]::new);
         Arrays.sort(descendingValues, Collections.reverseOrder());
  
-        System.out.println(Arrays.toString(descendingValues));
+       String result ="";
+        for (int i =0 ; i<descendingValues.length; i++) {
+        	result += descendingValues[i];
+        }
+        
+        System.out.println(result);
 
         //Array 한번에 출력하기
-       System.out.println(Arrays.toString(values));
+       System.out.println(Arrays.toString(descendingValues));
 	}
 
 }
