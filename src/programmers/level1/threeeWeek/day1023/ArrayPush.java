@@ -24,5 +24,9 @@ public class ArrayPush {
 
         Arrays.sort(answer);
         System.out.println(answer);
+        
+        
+        
+        
 	}
 }
