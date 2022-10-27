@@ -4,6 +4,10 @@ public class Masking {
 
 	public static void main(String[] args) {
 		String answer = "";
+		
+		
+		
+		
 		String phone_number = "010222222";
         String[] temp = String.valueOf(phone_number).split("");
          
