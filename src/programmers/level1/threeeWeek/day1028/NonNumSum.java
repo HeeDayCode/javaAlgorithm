@@ -5,28 +5,18 @@ import java.util.Arrays;
 public class NonNumSum {
 
 	public static int solution(int[] numbers) {
-		int answer = 0;
-		boolean[] existNum = new boolean[10];
-		int checkNum = 0;
-		Arrays.sort(numbers);
+		// 1 ~ 9 까지의 합인 45에서 numbers의 합을 빼주도록 한다.
+        int answer = 45;
 
-		for (int i = 0; i < numbers.length; i++) {
-			// System.out.print(numbers[i]+" ");
-			if (numbers[checkNum] == checkNum) {
-				System.out.println("존재: "+numbers[checkNum]);
-			} else {
-				answer += numbers[checkNum];
-                System.out.println("미존재: "+numbers[checkNum]);
-				
-			}
-            checkNum++;
-		}
+        for(int number : numbers) {
+            answer -= number;
+        }    
 
-		return answer;
+        return answer;
 	}
 
 	public static void main(String[] args) {
-		int[] numbers = { 1, 2, 3, 4, 5 };
+		int[] numbers = { 1, 2, 3, 4, 6, 7, 8, 0 };
 		System.out.println(solution(numbers)); 
 	}
 
