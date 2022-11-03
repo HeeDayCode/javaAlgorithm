@@ -12,13 +12,6 @@ public class ArrayPush {
         for(int i=0; i<arr.length; i++){
             if(arr[i]%divisor==0) cnt++;
         }
-
-        
-        
-        
-        
-        
-        
         
         if(cnt==0){
             int[] answer={-1};
