@@ -13,6 +13,13 @@ public class ArrayPush {
             if(arr[i]%divisor==0) cnt++;
         }
         
+        
+        
+        
+        
+        
+        
+        
         if(cnt==0){
             int[] answer={-1};
             System.out.println(answer);
