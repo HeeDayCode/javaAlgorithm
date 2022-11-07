@@ -13,6 +13,11 @@ public class PriceSum {
 	            temp += i * price;            
 	        }
 
+	        
+	        
+	        
+	        
+	        
 	        if (temp > money)
 	        	System.out.println(temp-money);
 	        else System.out.println(0);
