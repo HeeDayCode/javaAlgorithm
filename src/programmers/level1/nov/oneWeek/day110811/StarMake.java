@@ -16,6 +16,9 @@ public class StarMake {
             System.out.println("");
         }
 
+        
+        
+        
 	}
 
 }
