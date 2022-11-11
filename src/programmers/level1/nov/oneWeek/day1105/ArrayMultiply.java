@@ -12,6 +12,11 @@ public class ArrayMultiply {
         }
 
         System.out.println(answer);
+        
+        
+        
+        
+        
 	}
 
 }
