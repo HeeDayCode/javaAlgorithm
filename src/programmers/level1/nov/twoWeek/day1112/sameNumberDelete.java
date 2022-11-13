@@ -33,5 +33,12 @@ public class sameNumberDelete {
 		System.out.println(Arrays.toString(result.deleteIndex(arr, 2)));
 		
 	}
+	
+	
+	
+	
+	
+	
+	
 
 }
