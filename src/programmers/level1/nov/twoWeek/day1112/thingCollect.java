@@ -21,14 +21,7 @@ public class thingCollect {
 		
 		return resultCnt(cur+1, cnt+1, sum +nArray[cur]) + resultCnt(cur+1, cnt, sum);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
+
 	public static void main(String[] args) {
 		thingCollect result = new thingCollect();
 		System.out.println(result.resultCnt(0,0,0));
