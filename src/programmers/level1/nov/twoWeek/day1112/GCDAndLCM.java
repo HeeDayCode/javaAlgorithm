@@ -17,6 +17,12 @@ public class GCDAndLCM {
             }
         }       
 
+        
+        
+        
+        
+        
+        
         int min = (num1*num2)/max; //최소 공배수
 
         answer[0] = max;
