@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class IdMaker {
-//3번 문제
+//4번 문제 고은희
 	public IdMaker(String year, String month, String day, String sex) {
 		// TODO Auto-generated constructor stub
 		String sexData = "";

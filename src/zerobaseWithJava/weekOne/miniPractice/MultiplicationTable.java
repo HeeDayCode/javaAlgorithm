@@ -1,7 +1,7 @@
 package zerobaseWithJava.weekOne.miniPractice;
 
 public class MultiplicationTable {
-//1번 과제
+//1번 과제 고은희
 	public MultiplicationTable(int num) {
 		// TODO Auto-generated constructor stub
 		for (int i = 1; i < 10; i++) {

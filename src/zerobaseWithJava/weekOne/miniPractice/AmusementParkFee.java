@@ -3,7 +3,7 @@ package zerobaseWithJava.weekOne.miniPractice;
 import java.util.Scanner;
 
 public class AmusementParkFee {
-//3번 문제
+//3번 문제 고은희
 	public AmusementParkFee(int age, int time, String nationalChk, String welfareCardChk) {
 		// TODO Auto-generated constructor stub
 		int totalFee = 0;

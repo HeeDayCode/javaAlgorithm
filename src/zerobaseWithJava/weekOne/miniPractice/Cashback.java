@@ -3,7 +3,7 @@ package zerobaseWithJava.weekOne.miniPractice;
 import java.util.Scanner;
 
 public class Cashback {
-//2번 과제
+//2번 과제 고은희
 	public Cashback(int price) {
 		// TODO Auto-generated constructor stub
 		int cashbackPrice = 0;

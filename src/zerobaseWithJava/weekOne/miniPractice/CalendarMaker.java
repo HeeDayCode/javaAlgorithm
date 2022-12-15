@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class CalendarMaker {
 	private static final String YEAR = null;
-
-	// 5번 문제
+// 5번 문제 고은희
 	public CalendarMaker(int year, int month) {
 		// TODO Auto-generated constructor stub
 		System.out.println("["+year+"년 "+String.format("%02d", month)+"월]");

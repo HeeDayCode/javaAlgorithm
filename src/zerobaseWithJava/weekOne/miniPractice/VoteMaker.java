@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.Random;
 
 public class VoteMaker {
-//6번 문제
+//6번 문제 고은희
 	static int totalNum = 10000;
 	
 	public String VoteRate(int count) {
