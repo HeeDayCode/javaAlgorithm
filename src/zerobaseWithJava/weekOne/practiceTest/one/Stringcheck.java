@@ -1,4 +1,4 @@
-package zerobaseWithJava.weekOne.practiceTest;
+package zerobaseWithJava.weekOne.practiceTest.one;
 
 import java.util.Arrays;
 
