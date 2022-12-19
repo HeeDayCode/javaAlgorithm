@@ -11,8 +11,14 @@ public class findAverage {
         System.out.printf("max: %d, min :%d", arr[arr.length-1], arr[0]);
         System.out.println();
         
-        double num = 99.99;
-        System.out.println((int)Math.floor(num)); // 99
+        int num = arr.length -2;
+        int sum = 0;
+        for(int i = 1;i <arr.length-1; i++){
+            //System.out.println("arr["+i+"]: "+arr[i]);
+            sum = sum + arr[i];
+        }
+        
+        System.out.println((int)Math.floor(sum/num)); // 99
 	}
 
 }

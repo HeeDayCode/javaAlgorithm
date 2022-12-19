@@ -33,15 +33,13 @@ public class MakeTriangle {
 	        		 result2 = num3;
 	        	 }
 	        }
- 
-	       
-	        
+
 	        //긴변이 짧은 두변의 합보다 작다
 	        if(result3>=(result1+result2)) {
 	        	passCheck = true;
 	        }
-	        System.out.printf("%d / %d / %d",result1,result2,result3);
-	        System.out.println(passCheck);
+	        //System.out.printf("%d / %d / %d",result1,result2,result3);
+	        //System.out.println(passCheck);
 	        return passCheck;
 
 		}
